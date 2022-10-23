@@ -1,0 +1,28 @@
+<app-header></app-header>
+<div class="canvas-contaier" style="position: relative">
+  <canvas #canvas id="canvas"></canvas>
+</div>
+<div class="controls">
+  <div class="inputcontaier">
+    <label>
+      <h6>Lens Color</h6>
+      <input
+        class="lens-color"
+        type="color"
+        [(ngModel)]="colorSelection"
+        (input)="setLensColor()"
+      />
+    </label>
+  </div>
+  <div class="inputcontaier">
+    <label>
+      <h6>Frame Color</h6>
+      <input
+        class="lens-color"
+        type="color"
+        [(ngModel)]="frameColor"
+        (input)="setframeColor()"
+      />
+    </label>
+  </div>
+</div>

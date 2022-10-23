@@ -1,0 +1,37 @@
+.inputcontaier {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.lens-color {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 0;
+}
+.lens-color::-webkit-color-swatch {
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.lens-color::-moz-color-swatch {
+  border-radius: 15px;
+  border: 1px solid black;
+}
+h6 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.controls {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
